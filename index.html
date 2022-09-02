@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador KT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+
+            <textarea required type="text" id="user-input" placeholder="Ingresa tu texto aquí!" cols="30" rows="10"></textarea>
+
+
+            <div class="botones">
+                <label for="user-input"><b>Solo se aceptan letras en minúscula.</b></label>                
+                <button type="submit" id="btn-encriptar">ENCRIPTAR</button>
+                <button type="submit" id="btn-desencriptar">DESENCRIPTAR</button>
+            </div>
+
+        </section>
+
+        <section>
+
+            <textarea readonly type="text" id="resultado" placeholder="Resultado." cols="30" rows="10"></textarea>
+            <button type="submit" id="btn-copiar">COPIAR</button>
+
+        </section>
+    
+    </main>
+
+    <footer class="footer">
+        <p>Hecho por Karla Torres Piñero</span> | &copy; 2022</p>
+    </footer>
+
+    <script src="logic.js"></script>
+</body>
+</html>

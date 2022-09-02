@@ -1,0 +1,134 @@
+body{
+   background: radial-gradient(circle, #8865ea 180px, #ebd7f4);
+
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+#user-input{
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 140px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background: linear-gradient( #ebd7f4, #8865ea);
+    border: none;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+label{
+    position: absolute;
+    width: 205px;
+    height: 18px;
+    margin-top: 618px;
+    left: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#btn-encriptar{
+    display: flex;
+    margin-top: 650px;
+    flex-direction: row;    
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    right: 1090px;
+    top: 0px;
+    background: purple;
+    border: 1px solid #8865ea;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#btn-desencriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 328px;
+    height: 67px;
+    left: 480px;
+    top: 650px;
+    background: #d1fdfa;
+    border: 1px solid #d1fdfa;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#resultado{
+    position: absolute;
+    width: 400px;
+    height: 700px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border: #ebd7f4;
+    border-radius: 15px;
+    text-size-adjust: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#btn-copiar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1040px;
+    top: 650px;
+    background: purple;
+    border: 1px solid #8865ea;
+    border-radius: 24px;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;    
+}
+
+.footer {
+    position: absolute;
+    margin-top: 645px;
+    text-align: center;
+    font-size: 1rem;
+    color: purple;
+    font-weight: bold;
+}
+
